@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libflight_base.a  CMakeFiles/flight_base.dir/calendar_element.cpp.o CMakeFiles/flight_base.dir/flight_base.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libflight_base.a

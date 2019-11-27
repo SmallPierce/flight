@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jiewang/dev/改良/src/calendar_element.cpp
+calendar_element.hpp
+/Users/jiewang/dev/改良/src/calendar_element.hpp
+
+/Users/jiewang/dev/改良/src/calendar_element.hpp
+iostream
+-
+vector
+-
+
+/Users/jiewang/dev/改良/src/flight_base.cpp
+flight_base.hpp
+/Users/jiewang/dev/改良/src/flight_base.hpp
+
+/Users/jiewang/dev/改良/src/flight_base.hpp
+iostream
+-
+map
+-
+vector
+-
+string
+-
+sstream
+-
+fstream
+-
+calendar_element.hpp
+/Users/jiewang/dev/改良/src/calendar_element.hpp
+
