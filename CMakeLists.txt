@@ -1,15 +1,6 @@
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 3.13)
+project(001)
 
-PROJECT(demo1)
+set(CMAKE_CXX_STANDARD 14)
 
-SET(CMAKE_BUILD_TYPE "Debug")
-SET(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g2 -ggdb")
-SET(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall")
-
-include_directories(./src)
-add_subdirectory(./src)
-
-aux_source_directory(. DIR_SRCS)
-add_executable(demo1 ${DIR_SRCS})
-
-target_link_libraries(demo1 flight_base)
+add_executable(001 main.cpp flightbase.cpp flightbase.hpp)
